@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Abel;
+    src: url(Abel-Regular.ttf);
+}
+
+h1 {
+  text-align: center;
+  font-family: Abel;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Abel;
+  font-size: 20px;
+}
+
+h4 {
+  margin-top: 600px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#wrap {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+  border: 1px black solid;
+  margin-right: 5%;
+}
+
+input{
+  margin-top: 10px;
+}
+
+label{
+  margin-left: 20px;
+}
+
+#board {
+  margin-left: calc(50% - 250px);
+}
+
+#validate {
+  width: 100px;
+  text-align: center;
+  margin:0 auto;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+h3 {
+  margin-top: 4px;
+  font-family: Abel;
+}
+
+#correct {
+  width: 100px;
+  text-align: center;
+  margin:0 auto;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+#correct:hover{
+  width: 108px;
+  text-align: center;
+  margin:0 auto;
+  padding-top: 2px;
+  height: 32px;
+  margin-top: 8px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+#correct2 {
+  width: 100px;
+  text-align: center;
+  margin:0 auto;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+  background-color: green;
+}
+
+#correct2:hover{
+  width: 108px;
+  text-align: center;
+  margin:0 auto;
+  padding-top: 2px;
+  height: 32px;
+  margin-top: 8px;
+  border: 1px solid black;
+  background-color: green;
+}
+
+#letter_2 {
+  color: red;
+  margin-top: 13px;
+}
+
+.case {
+  width: 50px;
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+}
+
+p {
+  margin-top: 13px;
+}
+
+#letter {
+  margin-top: 13px;
+}
+
+#line_1 {
+  position: absolute;
+  top: 401px;
+}
+#line_2 {
+  position: absolute;
+  top: 452px;
+}
+#line_3 {
+  position: absolute;
+  top: 503px;
+}
+#line_4 {
+  position: absolute;
+  top: 554px;
+}
+#line_5 {
+  position: absolute;
+  top: 605px;
+}
+#line_6 {
+  position: absolute;
+  top: 656px;
+}
+#line_7 {
+  position: absolute;
+  top: 707px;
+}
+#line_8 {
+  position: absolute;
+  top: 758px;
+}
+#line_9 {
+  position: absolute;
+  top: 809px;
+}
+#line_10 {
+  position: absolute;
+  top: 860px;
+}

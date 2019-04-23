@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="everything">
+      <h1>Word Puzzle generator</h1>
+      <div id="wrap">
+        <h2>Enter your words : <br></h2>
+        <label>1 : </label>
+        <input id="word1"></input>
+        <label>2 : </label>
+        <input id="word2"></input>
+        <label>3 : </label>
+        <input id="word3"></input><br>
+        <label>4 : </label>
+        <input id="word4"></input>
+        <label>5 : </label>
+        <input id="word5"></input>
+        <label>6 : </label>
+        <input id="word6"></input>
+      </div>
+      <div id="wrap2">
+        <div id="validate" onclick="generate()"><h3>Generate</h3></div>
+        <div id="correct" onclick="correct()"><h3>HighLight</h3></div>
+        <div id="validate" onclick="printit()"><h3>print</h3></div>
+      </div>
+    </div>
+    <div id="board">
+      <div id="line_1">
+      </div>
+      <div id="line_2">
+      </div>
+      <div id="line_3">
+      </div>
+      <div id="line_4">
+      </div>
+      <div id="line_5">
+      </div>
+      <div id="line_6">
+      </div>
+      <div id="line_7">
+      </div>
+      <div id="line_8">
+      </div>
+      <div id="line_9">
+      </div>
+      <div id="line_10">
+      </div>
+    </div>
+
+    <h4 id="guess"></h4>
+  </body>
+</html>
