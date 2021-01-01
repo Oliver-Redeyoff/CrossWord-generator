@@ -1,1 +1,3 @@
-Generate a crossword and save it as an image
+#CrossWord-generator
+
+Generate a crossword from a list of words and save it as an image.
